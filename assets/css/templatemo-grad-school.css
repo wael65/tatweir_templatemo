@@ -625,7 +625,8 @@ section.coming-soon {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
-    padding: 120px 0px;
+    padding: 190px 0px;
+     /* filter: brightness(50%); */
 }
 
 section.coming-soon .continer .counter div {
