@@ -273,10 +273,18 @@ a.menu-link { display: none; }
     border: none;
 }
 
+.logo-nav li:hover a,
+.logo-nav li.active a {
+    border:none !important;
+}                      /*wael*/
+
+
 .main-nav li:hover a,
 .main-nav li.active a {
     border: 2px solid #f5a425;
 }
+
+
 
 @media (max-width: 950px) {
   .main-nav li:hover a,
@@ -621,7 +629,7 @@ section.why-us {
 /* Coming Soon */
 
 section.coming-soon {
-    background-image: url(../images/coming-soon-bg.jpg);
+    background-image: url(../images/pexels-meeting-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
@@ -886,11 +894,11 @@ section.courses .owl-carousel button.active {
 /* Video */
 
 section.video {
-    background-image: url(../images/video-bg.jpg);
+    background-image: url(../images/pexels-video-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
-    padding: 120px 0px;
+    padding: 150px 0px 130px 0px;
 }
 
 section.video .left-content {
@@ -952,10 +960,13 @@ section.video .left-content .main-button {
 .video-item figure a:before {
   content: '';
   position: absolute;
-  bottom: 10px;
+  /* bottom: 10px; */
+  bottom: 5px;
   right: 15px;
-  width: 60px;
-  height: 60px;
+  /* width: 60px;
+  height: 60px; */
+   width: 40px;
+  height: 40px;
   margin-top: -32.5px;
   margin-left: -32.5px;
   border-radius: 50%;
@@ -965,8 +976,11 @@ section.video .left-content .main-button {
 .video-item figure a:after {
   content: '';
   position: absolute;
-  bottom: 27.5px;
-  right: 20px;
+  /* bottom: 27.5px;
+  right: 20px; */
+  /* bottom: 16px; */
+  bottom: 11px;
+  right: 8px;
   margin-top: -12.5px;
   margin-left: -7px;
   border: solid 13px transparent;
@@ -982,7 +996,7 @@ section.video .left-content .main-button {
     position: absolute;
     z-index: 10;
     background-color: rgba(250,250,250,0.75);
-    height: 80px;
+    height: 40px;
     width: 100%;
     padding: 27px 30px;
     bottom: 0;
