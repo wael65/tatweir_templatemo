@@ -336,6 +336,15 @@ a.menu-link { display: none; }
   letter-spacing: 1px;
 }
 
+.main-banner .caption h5 {
+  margin-top: 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
 .main-banner .caption h2 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -358,6 +367,8 @@ a.menu-link { display: none; }
     font-weight: 500;
   }
 
+ 
+
   .main-banner .caption h2 {
     font-size: 58px;
   }
@@ -368,6 +379,8 @@ a.menu-link { display: none; }
   .main-banner .caption h6 {
     font-weight: 500;
   }
+
+ 
 
   .main-banner .caption h2 {
     font-size: 36px;
