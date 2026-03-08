@@ -1615,4 +1615,7 @@ footer p a:hover {
     font-weight: 600;
     letter-spacing: 0.25px;
   }
+     .desktop-only {
+      display: none;
+    }
 }
