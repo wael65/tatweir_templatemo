@@ -14,6 +14,9 @@ body {
 }
 
 /* Basic */
+ .mobile-only {
+    display: none;
+  }
 
 a {
 	color: #3CF;
@@ -917,6 +920,10 @@ section.video .left-content {
   color: #fff;
 }
 
+section.video  .ar-lang{
+text-align: right;
+}
+
 section.video .left-content span {
   text-transform: uppercase;
   font-size: 14px;
@@ -951,7 +958,8 @@ section.video .left-content .main-button {
 @media screen and (max-width: 767px) {
 
   section.video .left-content {
-    margin-bottom: 45px;
+  margin-bottom: 45px;
+   text-align: center;
   }
 
   section.video .first-item .first-content h4,
@@ -1617,5 +1625,8 @@ footer p a:hover {
   }
      .desktop-only {
       display: none;
+    }
+    .mobile-only {
+      display: block;
     }
 }
