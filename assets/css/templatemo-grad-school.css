@@ -155,6 +155,10 @@ a.menu-link { display: none; }
       padding-left: 30px!important;
   }
 
+  .main-header .logo i{
+    padding-left: 10px;
+}
+
   .main-menu {
       padding-right: 30px!important;
   }
@@ -177,6 +181,10 @@ a.menu-link { display: none; }
     float: left;
     line-height: 80px;
     padding-left: 60px;
+}
+
+.main-header .logo i{
+    padding-left: 80px;
 }
 
 .main-header .logo a {
@@ -1572,6 +1580,9 @@ footer p a:hover {
   .main-header .logo {
     line-height: 73px;
   }
+    .main-header .logo i{
+    padding-left: 10px;
+}
   .main-menu li {
     display: block;
     line-height: 1;
