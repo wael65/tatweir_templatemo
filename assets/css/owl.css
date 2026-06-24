@@ -184,3 +184,36 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+
+  /* تعديل من Chat GPT لجعل الكروت فى قسم خدماتنا بنفس الأرتفاع  */
+
+  /* جعل كل عناصر الـ Owl بنفس الارتفاع */
+.owl-carousel .owl-stage {
+    display: flex;
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+    height: auto;
+}
+
+.owl-carousel .item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* الكارت نفسه */
+section.courses .item .down-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* الجزء السفلي ينزل لتحت */
+section.courses .item .down-content .text-button-pay,
+section.courses .item .down-content .text-button-free {
+    margin-top: auto;
+}
